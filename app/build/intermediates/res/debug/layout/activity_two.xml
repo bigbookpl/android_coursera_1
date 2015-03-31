@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <TextView android:id="@+id/create"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/onCreate"
+        android:textSize="25dp" />
+    
+    <TextView android:id="@+id/start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/onStart"
+        android:textSize="25dp" />
+    
+    <TextView android:id="@+id/resume"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/onResume"
+        android:textSize="25dp" />
+
+    <TextView android:id="@+id/restart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/onRestart"
+        android:textSize="25dp" />
+    
+    <Button android:id="@+id/bClose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/close"
+        />
+
+    <TextView android:id="@+id/mFirstTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/wowoww"
+        android:layout_gravity="right" />
+
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ratingBar"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout><!-- From: file:/home/bigbook/AndroidStudioProjects/Lab2_ActivityLab/app/src/main/res/layout/activity_two.xml -->
